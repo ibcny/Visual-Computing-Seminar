@@ -1,0 +1,2910 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2017 22:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**seminar_beamer.tex
+(./seminar_beamer.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamer.cls
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasercs.sty
+Package: beamerbasercs 2015/03/08 (rcs-revision 368aa9ba9d38)
+)
+Document Class: beamer 2015/01/05 3.36 A class for typesetting presentations (r
+cs-revision 8a39122e1f63)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+Package: beamerbasemodes 2013/09/03 (rcs-revision 768f2d98ca64)
+\beamer@tempbox=\box26
+\beamer@tempcount=\count79
+\c@beamerpauses=\count80
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
+\beamer@slideinframe=\count81
+\beamer@minimum=\count82
+)
+\beamer@commentbox=\box27
+\beamer@modecount=\count83
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+\headheight=\dimen102
+\headdp=\dimen103
+\footheight=\dimen104
+\sidebarheight=\dimen105
+\beamer@tempdim=\dimen106
+\beamer@finalheight=\dimen107
+\beamer@animht=\dimen108
+\beamer@animdp=\dimen109
+\beamer@animwd=\dimen110
+\beamer@leftmargin=\dimen111
+\beamer@rightmargin=\dimen112
+\beamer@leftsidebar=\dimen113
+\beamer@rightsidebar=\dimen114
+\beamer@boxsize=\dimen115
+\beamer@vboxoffset=\dimen116
+\beamer@descdefault=\dimen117
+\beamer@descriptionwidth=\dimen118
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count84
+\beamer@subsubsectionmax=\count85
+\beamer@subsectionmax=\count86
+\beamer@sectionmax=\count87
+\beamer@totalheads=\count88
+\beamer@headcounter=\count89
+\beamer@partstartpage=\count90
+\beamer@sectionstartpage=\count91
+\beamer@subsectionstartpage=\count92
+\beamer@animationtempa=\count93
+\beamer@animationtempb=\count94
+\beamer@xpos=\count95
+\beamer@ypos=\count96
+\beamer@showpartnumber=\count97
+\beamer@currentsubsection=\count98
+\beamer@coveringdepth=\count99
+\beamer@sectionadjust=\count100
+\beamer@tocsectionnumber=\count101
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+Package: beamerbaseoptions 2013/03/10 (rcs-revision 47431932db0d)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen129
+\pgfutil@tempdimb=\dimen130
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box34
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count106
+\c@pgf@countb=\count107
+\c@pgf@countc=\count108
+\c@pgf@countd=\count109
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count110
+\pgfsyssoftpath@bigbuffer@items=\count111
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen139
+\pgfmath@count=\count112
+\pgfmath@box=\box35
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count113
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen140
+\pgf@picmaxx=\dimen141
+\pgf@picminy=\dimen142
+\pgf@picmaxy=\dimen143
+\pgf@pathminx=\dimen144
+\pgf@pathmaxx=\dimen145
+\pgf@pathminy=\dimen146
+\pgf@pathmaxy=\dimen147
+\pgf@xx=\dimen148
+\pgf@xy=\dimen149
+\pgf@yx=\dimen150
+\pgf@yy=\dimen151
+\pgf@zx=\dimen152
+\pgf@zy=\dimen153
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen154
+\pgf@path@lasty=\dimen155
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen156
+\pgf@shorten@start@additional=\dimen157
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count114
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen158
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen159
+\pgf@pt@y=\dimen160
+\pgf@pt@temp=\dimen161
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen162
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen163
+\pgf@sys@shading@range@num=\count115
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box39
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count116
+\XC@countmixins=\count117
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen164
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count120
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4322.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4322.
+Package hyperref Info: Option `implicit' set `false' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count121
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen165
+\Fld@menulength=\count122
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count123
+
+
+Package hyperref Message: Stopped early.
+
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y
+Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+Package: beamerbasefont 2015/01/05  (rcs-revision b4b4bee242e2)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2013/03/28
+(/usr/local/texlive/2016/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/translator-lang
+uage-mappings.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
+Package: beamerbasemisc 2013/09/03  (rcs-revision a55719c41d85)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty
+Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+Package: beamerbaseoverlay 2013/12/25  (rcs-revision f6bd5e3805da)
+\beamer@argscount=\count126
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count127
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetitle.sty
+Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+Package: beamerbasesection 2013/06/07  (rcs-revision 60b9fe0f342f)
+\c@lecture=\count128
+\c@part=\count129
+\c@section=\count130
+\c@subsection=\count131
+\c@subsubsection=\count132
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+Package: beamerbaseframe 2014/02/20  (rcs-revision 4b8ceeeff434)
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
+\beamer@zoomcount=\count133
+\beamer@zoomframecount=\count134
+\beamer@frametextheight=\dimen168
+\c@subsectionslide=\count135
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen169
+\c@framenumber=\count136
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+Package: beamerbaseverbatim 2015/01/05  (rcs-revision 431510bb5890)
+\beamer@verbatimfileout=\write4
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@splitbox=\box43
+\beamer@autobreakcount=\count137
+\beamer@autobreaklastheight=\dimen170
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty
+Package: beamerbaseframecomponents 2013/10/18  (rcs-revision 5cf6c5555a45)
+\beamer@footins=\box44
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
+Package: beamerbasecolor 2015/02/21  (rcs-revision d944b04ee2d5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
+\beamer@frameboxcopy=\box45
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetoc.sty
+Package: beamerbasetoc 2015/03/08  (rcs-revision 7270298bbaae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
+\beamer@sbttoks=\toks30
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+Package: beamerbaseauxtemplates 2014/06/30  (rcs-revision 580088513a67)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
+\bmb@temp=\dimen171
+\bmb@dima=\dimen172
+\bmb@dimb=\dimen173
+\bmb@prevheight=\dimen174
+)
+\beamer@blockheadheight=\dimen175
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty
+Package: beamerbaselocalstructure 2014/09/10  (rcs-revision 393f6dcff371)
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count138
+\c@table=\count139
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+Package: beamerbasenavigation 2015/02/27  (rcs-revision 923f4bf87efa)
+\beamer@section@min@dim=\dimen176
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen177
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen178
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count140
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count141
+\leftroot@=\count142
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count143
+\DOTSCASE@=\count144
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen179
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count145
+\c@MaxMatrixCols=\count146
+\dotsspace@=\muskip11
+\c@parentequation=\count147
+\dspbrk@lvl=\count148
+\tag@help=\toks33
+\row@=\count149
+\column@=\count150
+\maxfields@=\count151
+\andhelp@=\toks34
+\eqnshift@=\dimen180
+\alignsep@=\dimen181
+\tagshift@=\dimen182
+\tagwidth@=\dimen183
+\totwidth@=\dimen184
+\lineht@=\dimen185
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
+)
+\c@theorem=\count152
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasethemes.sty
+Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/theme/beamerthemede
+fault.sty
+Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
+edefault.sty
+Package: beamerfontthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emedefault.sty
+Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emedefault.sty
+Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
+\beamer@dima=\dimen186
+\beamer@dimb=\dimen187
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+emedefault.sty
+Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/05/14 v3.4 programmable bibliographies (PK/JW/AB)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
+and LuaTeX
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count153
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count154
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write5
+\integerpart=\count155
+\decimalpart=\count156
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count157
+\c@listtotal=\count158
+\c@listcount=\count159
+\c@liststart=\count160
+\c@liststop=\count161
+\c@citecount=\count162
+\c@citetotal=\count163
+\c@multicitecount=\count164
+\c@multicitetotal=\count165
+\c@instcount=\count166
+\c@maxnames=\count167
+\c@minnames=\count168
+\c@maxitems=\count169
+\c@minitems=\count170
+\c@citecounter=\count171
+\c@savedcitecounter=\count172
+\c@uniquelist=\count173
+\c@uniquename=\count174
+\c@refsection=\count175
+\c@refsegment=\count176
+\c@maxextratitle=\count177
+\c@maxextratitleyear=\count178
+\c@maxextrayear=\count179
+\c@maxextraalpha=\count180
+\c@abbrvpenalty=\count181
+\c@highnamepenalty=\count182
+\c@lownamepenalty=\count183
+\c@maxparens=\count184
+\c@parenlevel=\count185
+\blx@tempcnta=\count186
+\blx@tempcntb=\count187
+\blx@tempcntc=\count188
+\blx@maxsection=\count189
+\blx@maxsegment@0=\count190
+\blx@notetype=\count191
+\blx@parenlevel@text=\count192
+\blx@parenlevel@foot=\count193
+\blx@sectionciteorder@0=\count194
+\labelnumberwidth=\skip57
+\labelalphawidth=\skip58
+\biblabelsep=\skip59
+\bibitemsep=\skip60
+\bibnamesep=\skip61
+\bibinitsep=\skip62
+\bibparsep=\skip63
+\bibhang=\skip64
+\blx@bcfin=\read2
+\blx@bcfout=\write6
+\c@mincomprange=\count195
+\c@maxcomprange=\count196
+\c@mincompwidth=\count197
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count198
+\c@savedafterword=\count199
+\c@annotator=\count266
+\c@savedannotator=\count267
+\c@author=\count268
+\c@savedauthor=\count269
+\c@bookauthor=\count270
+\c@savedbookauthor=\count271
+\c@commentator=\count272
+\c@savedcommentator=\count273
+\c@editor=\count274
+\c@savededitor=\count275
+\c@editora=\count276
+\c@savededitora=\count277
+\c@editorb=\count278
+\c@savededitorb=\count279
+\c@editorc=\count280
+\c@savededitorc=\count281
+\c@foreword=\count282
+\c@savedforeword=\count283
+\c@holder=\count284
+\c@savedholder=\count285
+\c@introduction=\count286
+\c@savedintroduction=\count287
+\c@namea=\count288
+\c@savednamea=\count289
+\c@nameb=\count290
+\c@savednameb=\count291
+\c@namec=\count292
+\c@savednamec=\count293
+\c@translator=\count294
+\c@savedtranslator=\count295
+\c@shortauthor=\count296
+\c@savedshortauthor=\count297
+\c@shorteditor=\count298
+\c@savedshorteditor=\count299
+\c@labelname=\count300
+\c@savedlabelname=\count301
+\c@institution=\count302
+\c@savedinstitution=\count303
+\c@lista=\count304
+\c@savedlista=\count305
+\c@listb=\count306
+\c@savedlistb=\count307
+\c@listc=\count308
+\c@savedlistc=\count309
+\c@listd=\count310
+\c@savedlistd=\count311
+\c@liste=\count312
+\c@savedliste=\count313
+\c@listf=\count314
+\c@savedlistf=\count315
+\c@location=\count316
+\c@savedlocation=\count317
+\c@organization=\count318
+\c@savedorganization=\count319
+\c@origlocation=\count320
+\c@savedoriglocation=\count321
+\c@origpublisher=\count322
+\c@savedorigpublisher=\count323
+\c@publisher=\count324
+\c@savedpublisher=\count325
+\c@language=\count326
+\c@savedlanguage=\count327
+\c@pageref=\count328
+\c@savedpageref=\count329
+\shorthandwidth=\skip65
+\shortjournalwidth=\skip66
+\shortserieswidth=\skip67
+\shorttitlewidth=\skip68
+\shortauthorwidth=\skip69
+\shorteditorwidth=\skip70
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count330
+\c@textcitetotal=\count331
+\c@textcitemaxnames=\count332
+\c@biburlnumpenalty=\count333
+\c@biburlucpenalty=\count334
+\c@biburllcpenalty=\count335
+\c@smartand=\count336
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count337
+\c@bbx:relatedtotal=\count338
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2016/05/14 v3.4 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count339
+\lst@gtempboxa=\box53
+\lst@token=\toks43
+\lst@length=\count340
+\lst@currlwidth=\dimen188
+\lst@column=\count341
+\lst@pos=\count342
+\lst@lostspace=\dimen189
+\lst@width=\dimen190
+\lst@newlines=\count343
+\lst@lineno=\count344
+\lst@maxwidth=\dimen191
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count345
+\lst@skipnumbers=\count346
+\lst@framebox=\box54
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen192
+\captionmargin@=\dimen193
+\captionwidth=\dimen194
+\caption@tempdima=\dimen195
+\caption@indent=\dimen196
+\caption@parindent=\dimen197
+\caption@hangindent=\dimen198
+)
+\c@ContinuedFloat=\count347
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+Package caption Info: listings package is loaded.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks44
+\inpenc@posthook=\toks45
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box55
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen199
+\pgf@nodesepend=\dimen256
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen257
+\pgffor@skip=\dimen258
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count348
+\pgfplotmarksize=\dimen259
+)
+\tikz@lastx=\dimen260
+\tikz@lasty=\dimen261
+\tikz@lastxsaved=\dimen262
+\tikz@lastysaved=\dimen263
+\tikzleveldistance=\dimen264
+\tikzsiblingdistance=\dimen265
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count349
+\tikznumberofchildren=\count350
+\tikznumberofcurrentchild=\count351
+\tikz@fig@count=\count352
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count353
+\pgfmatrixcurrentcolumn=\count354
+\pgf@matrix@numberofcolumns=\count355
+)
+\tikz@expandcount=\count356
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen266
+\extrarowheight=\dimen267
+\NC@list=\toks48
+\extratabsurround=\skip71
+\backup@length=\skip72
+)
+\everycr=\toks49
+\minrowclearance=\skip73
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen268
+\lightrulewidth=\dimen269
+\cmidrulewidth=\dimen270
+\belowrulesep=\dimen271
+\belowbottomsep=\dimen272
+\aboverulesep=\dimen273
+\abovetopsep=\dimen274
+\cmidrulesep=\dimen275
+\cmidrulekern=\dimen276
+\defaultaddspace=\dimen277
+\@cmidla=\count357
+\@cmidlb=\count358
+\@aboverulesep=\dimen278
+\@belowrulesep=\dimen279
+\@thisruleclass=\count359
+\@lastruleclass=\count360
+\@thisrulewidth=\dimen280
+)
+\sympureletters=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 19.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2016/02/27 v1.2a Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldpureletters=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 142.
+LaTeX Info: Redefining \bm on input line 208.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeMa
+drid.sty
+Package: beamerthemeMadrid 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emewhale.sty
+Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emeorchid.sty
+Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emerounded.sty
+Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+emeinfolines.sty
+Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
+))
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 34.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: Patching footnotes failed.
+(biblatex)                Footnote detection will not work.
+
+\@quotelevel=\count361
+\@quotereset=\count362
+(./seminar_beamer.aux)
+\openout1 = `seminar_beamer.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=342.2953pt
+* \textheight=244.6939pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count363
+\scratchdimen=\dimen281
+\scratchbox=\box60
+\nofMPsegments=\count364
+\nofMParguments=\count365
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count366
+\MPscratchDim=\dimen282
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
+\everyMPtoPDFconversion=\toks51
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box61
+Package hyperref Info: Link coloring OFF on input line 44.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count369
+)
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
+
+(./seminar_beamer.out) (./seminar_beamer.out)
+\@outlinefile=\write7
+\openout7 = `seminar_beamer.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 44.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 44.
+\symnumbers=\mathgroup11
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 44.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/cmss/m/it on input line 4
+4.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/bx/sl --> OT1/cmss/m/it on input line 
+44.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 44.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 44.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 44.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 44.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 44.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 44.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 44.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 44.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 44.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 44.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 44.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 44.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 44.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 44.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 44.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
+4.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
+44.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 44.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-basic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-bibliography-dictionary/translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-environment-dictionary/translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-months-dictionary/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-numbers-dictionary/translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-theorem-dictionary/translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \includegraphics on input line 44.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout6 = `seminar_beamer.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'seminar_beamer.bbl' not found.
+
+No file seminar_beamer.bbl.
+Package biblatex Info: Reference section=0 on input line 44.
+Package biblatex Info: Reference segment=0 on input line 44.
+\c@lstlisting=\count370
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+(./seminar_beamer.nav)
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 48.
+
+<uni-bonn.png, id=56, 1204.5pt x 702.625pt>
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 48.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./uni-b
+onn.png (PNG copy)>] (./seminar_beamer.toc)
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 54.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [2
+
+]
+<figure/ss2.png, id=96, 709.65125pt x 405.515pt>
+File: figure/ss2.png Graphic file (type png)
+ <use figure/ss2.png>
+Package pdftex.def Info: figure/ss2.png used on input line 70.
+(pdftex.def)             Requested size: 171.14764pt x 97.79584pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 70.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [3
+
+ <./figure/ss2.png>]
+<figure/ss3.png, id=106, 1385.175pt x 433.62pt>
+File: figure/ss3.png Graphic file (type png)
+ <use figure/ss3.png>
+Package pdftex.def Info: figure/ss3.png used on input line 85.
+(pdftex.def)             Requested size: 273.83728pt x 85.72337pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 85.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [4
+
+ <./figure/ss3.png (PNG copy)>]
+<figure/ss4.png, id=115, 639.89063pt x 323.70938pt>
+File: figure/ss4.png Graphic file (type png)
+ <use figure/ss4.png>
+Package pdftex.def Info: figure/ss4.png used on input line 100.
+(pdftex.def)             Requested size: 239.60567pt x 121.21289pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 100.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [5
+
+ <./figure/ss4.png>]
+<figure/ss5.jpg, id=123, 1606.0pt x 903.375pt>
+File: figure/ss5.jpg Graphic file (type jpg)
+ <use figure/ss5.jpg>
+Package pdftex.def Info: figure/ss5.jpg used on input line 116.
+(pdftex.def)             Requested size: 171.14764pt x 96.27007pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 116.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [6
+
+ <./figure/ss5.jpg>]
+<figure/ss7.png, id=131, 865.2325pt x 237.88875pt>
+File: figure/ss7.png Graphic file (type png)
+ <use figure/ss7.png>
+Package pdftex.def Info: figure/ss7.png used on input line 134.
+(pdftex.def)             Requested size: 171.14764pt x 47.0542pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 134.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [7
+
+ <./figure/ss7.png>]
+File: figure/ss7.png Graphic file (type png)
+ <use figure/ss7.png>
+Package pdftex.def Info: figure/ss7.png used on input line 134.
+(pdftex.def)             Requested size: 171.14764pt x 47.0542pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 134.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [8
+
+]
+File: figure/ss7.png Graphic file (type png)
+ <use figure/ss7.png>
+Package pdftex.def Info: figure/ss7.png used on input line 134.
+(pdftex.def)             Requested size: 171.14764pt x 47.0542pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 134.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [9
+
+]
+File: figure/ss7.png Graphic file (type png)
+
+<use figure/ss7.png>
+Package pdftex.def Info: figure/ss7.png used on input line 134.
+(pdftex.def)             Requested size: 171.14764pt x 47.0542pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 134.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [10
+
+]
+File: figure/ss7.png Graphic file (type png)
+ <use figure/ss7.png>
+Package pdftex.def Info: figure/ss7.png used on input line 134.
+(pdftex.def)             Requested size: 171.14764pt x 47.0542pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 134.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [11
+
+] <figure/ss12.png, id=165, 608.2725pt x 337.26pt>
+File: figure/ss12.png Graphic file (type png)
+
+<use figure/ss12.png>
+Package pdftex.def Info: figure/ss12.png used on input line 148.
+(pdftex.def)             Requested size: 171.14764pt x 94.89015pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 148.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [12
+
+ <./figure/ss12.png>]
+<figure/ss13.png, id=174, 838.13126pt x 419.5675pt>
+File: figure/ss13.png Graphic file (type png)
+ <use figure/ss13.png>
+Package pdftex.def Info: figure/ss13.png used on input line 163.
+(pdftex.def)             Requested size: 219.06877pt x 109.66116pt.
+
+Overfull \vbox (1.09964pt too high) detected at line 163
+ []
+
+File: uni-bonn.png Graphic file (type png)
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 163.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [13
+
+ <./figure/ss13.png>]
+<figure/ss14.png, id=183, 821.0675pt x 188.705pt>
+File: figure/ss14.png Graphic file (type png)
+ <use figure/ss14.png>
+Package pdftex.def Info: figure/ss14.png used on input line 178.
+(pdftex.def)             Requested size: 219.06877pt x 50.34634pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 178.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [14
+
+ <./figure/ss14.png>]
+<figure/ss6.png, id=191, 471.7625pt x 277.035pt>
+File: figure/ss6.png Graphic file (type png)
+ <use figure/ss6.png>
+Package pdftex.def Info: figure/ss6.png used on input line 194.
+(pdftex.def)             Requested size: 171.14764pt x 100.50609pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 194.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [15
+
+ <./figure/ss6.png (PNG copy)>]
+File: figure/ss6.png Graphic file (type png)
+ <use figure/ss6.png>
+Package pdftex.def Info: figure/ss6.png used on input line 194.
+(pdftex.def)             Requested size: 171.14764pt x 100.50609pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 194.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [16
+
+] <figure/ss15.png, id=204, 838.13126pt x 252.945pt>
+File: figure/ss15.png Graphic file (type png)
+
+<use figure/ss15.png>
+Package pdftex.def Info: figure/ss15.png used on input line 212.
+(pdftex.def)             Requested size: 256.72147pt x 77.47424pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 212.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [17
+
+ <./figure/ss15.png>]
+File: figure/ss15.png Graphic file (type png)
+
+<use figure/ss15.png>
+Package pdftex.def Info: figure/ss15.png used on input line 212.
+(pdftex.def)             Requested size: 256.72147pt x 77.47424pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 212.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [18
+
+]
+File: figure/ss15.png Graphic file (type png)
+ <use figure/ss15.png>
+Package pdftex.def Info: figure/ss15.png used on input line 212.
+(pdftex.def)             Requested size: 256.72147pt x 77.47424pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 212.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [19
+
+] <figure/ss16.png, id=226, 760.8425pt x 249.93375pt>
+File: figure/ss16.png Graphic file (type png)
+
+<use figure/ss16.png>
+Package pdftex.def Info: figure/ss16.png used on input line 231.
+(pdftex.def)             Requested size: 290.9531pt x 95.57837pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 231.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [20
+
+ <./figure/ss16.png>]
+File: figure/ss16.png Graphic file (type png)
+
+<use figure/ss16.png>
+Package pdftex.def Info: figure/ss16.png used on input line 231.
+(pdftex.def)             Requested size: 290.9531pt x 95.57837pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 231.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [21
+
+]
+File: figure/ss16.png Graphic file (type png)
+ <use figure/ss16.png>
+Package pdftex.def Info: figure/ss16.png used on input line 231.
+(pdftex.def)             Requested size: 290.9531pt x 95.57837pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 231.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [22
+
+] <figure/ss40.png, id=246, 661.47125pt x 377.41pt>
+File: figure/ss40.png Graphic file (type png)
+
+<use figure/ss40.png>
+Package pdftex.def Info: figure/ss40.png used on input line 246.
+(pdftex.def)             Requested size: 171.14764pt x 97.6463pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 246.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [23
+
+ <./figure/ss40.png>]
+File: figure/ss40.png Graphic file (type png)
+
+<use figure/ss40.png>
+Package pdftex.def Info: figure/ss40.png used on input line 246.
+(pdftex.def)             Requested size: 171.14764pt x 97.6463pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 246.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [24
+
+]
+File: figure/ss40.png Graphic file (type png)
+ <use figure/ss40.png>
+Package pdftex.def Info: figure/ss40.png used on input line 246.
+(pdftex.def)             Requested size: 171.14764pt x 97.6463pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 246.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [25
+
+] <figure/ss8.png, id=267, 640.3925pt x 169.63374pt>
+File: figure/ss8.png Graphic file (type png)
+
+<use figure/ss8.png>
+Package pdftex.def Info: figure/ss8.png used on input line 282.
+(pdftex.def)             Requested size: 222.48985pt x 58.93524pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 282.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [26
+
+ <./figure/ss8.png>]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 282.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [27
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 282.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [28
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 282.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [29
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 297.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [30
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 297.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [31
+
+]
+<figure/ss17.png, id=315, 555.07375pt x 371.3875pt>
+File: figure/ss17.png Graphic file (type png)
+ <use figure/ss17.png>
+Package pdftex.def Info: figure/ss17.png used on input line 313.
+(pdftex.def)             Requested size: 171.14764pt x 114.51123pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 313.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [32
+
+ <./figure/ss17.png>]
+<figure/ss10.png, id=324, 749.80125pt x 537.00626pt>
+File: figure/ss10.png Graphic file (type png)
+ <use figure/ss10.png>
+Package pdftex.def Info: figure/ss10.png used on input line 345.
+(pdftex.def)             Requested size: 142.25778pt x 99.58223pt.
+
+<figure/ss27.png, id=325, 710.655pt x 297.11pt>
+File: figure/ss27.png Graphic file (type png)
+ <use figure/ss27.png>
+Package pdftex.def Info: figure/ss27.png used on input line 345.
+(pdftex.def)             Requested size: 142.2586pt x 71.13104pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 345.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [33
+
+ <./figure/ss10.png> <./figure/ss27.png>]
+<figure/ss20.png, id=335, 446.66875pt x 295.1025pt>
+File: figure/ss20.png Graphic file (type png)
+ <use figure/ss20.png>
+Package pdftex.def Info: figure/ss20.png used on input line 361.
+(pdftex.def)             Requested size: 154.03183pt x 101.76543pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 361.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [34
+
+ <./figure/ss20.png>]
+<figure/ss18.png, id=343, 653.44125pt x 299.1175pt>
+File: figure/ss18.png Graphic file (type png)
+ <use figure/ss18.png>
+Package pdftex.def Info: figure/ss18.png used on input line 379.
+(pdftex.def)             Requested size: 205.37926pt x 94.01256pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 379.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [35
+
+ <./figure/ss18.png>]
+File: figure/ss18.png Graphic file (type png)
+ <use figure/ss18.png>
+Package pdftex.def Info: figure/ss18.png used on input line 379.
+(pdftex.def)             Requested size: 205.37926pt x 94.01256pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 379.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [36
+
+]
+File: figure/ss18.png Graphic file (type png)
+ <use figure/ss18.png>
+Package pdftex.def Info: figure/ss18.png used on input line 379.
+(pdftex.def)             Requested size: 205.37926pt x 94.01256pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 379.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [37
+
+]
+File: figure/ss18.png Graphic file (type png)
+
+<use figure/ss18.png>
+Package pdftex.def Info: figure/ss18.png used on input line 379.
+(pdftex.def)             Requested size: 205.37926pt x 94.01256pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 379.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [38
+
+]
+<figure/ss19.png, id=369, 882.29625pt x 318.18875pt>
+File: figure/ss19.png Graphic file (type png)
+ <use figure/ss19.png>
+Package pdftex.def Info: figure/ss19.png used on input line 401.
+(pdftex.def)             Requested size: 205.37926pt x 74.0655pt.
+
+Overfull \vbox (3.33795pt too high) detected at line 401
+ []
+
+File: uni-bonn.png Graphic file (type png)
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 401.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [39
+
+ <./figure/ss19.png>]
+File: figure/ss19.png Graphic file (type png)
+ <use figure/ss19.png>
+Package pdftex.def Info: figure/ss19.png used on input line 401.
+(pdftex.def)             Requested size: 205.37926pt x 74.0655pt.
+
+Overfull \vbox (3.33795pt too high) detected at line 401
+ []
+
+File: uni-bonn.png Graphic file (type png)
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 401.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [40
+
+]
+File: figure/ss19.png Graphic file (type png)
+ <use figure/ss19.png>
+Package pdftex.def Info: figure/ss19.png used on input line 401.
+(pdftex.def)             Requested size: 205.37926pt x 74.0655pt.
+
+Overfull \vbox (3.33795pt too high) detected at line 401
+ []
+
+File: uni-bonn.png Graphic file (type png)
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 401.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [41
+
+] <figure/ss44.png, id=389, 743.77875pt x 470.75874pt>
+File: figure/ss44.png Graphic file (type png)
+
+<use figure/ss44.png>
+Package pdftex.def Info: figure/ss44.png used on input line 417.
+(pdftex.def)             Requested size: 171.14764pt x 108.32251pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 417.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [42
+
+ <./figure/ss44.png>]
+File: figure/ss44.png Graphic file (type png)
+
+<use figure/ss44.png>
+Package pdftex.def Info: figure/ss44.png used on input line 417.
+(pdftex.def)             Requested size: 171.14764pt x 108.32251pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 417.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [43
+
+]
+File: figure/ss44.png Graphic file (type png)
+ <use figure/ss44.png>
+Package pdftex.def Info: figure/ss44.png used on input line 417.
+(pdftex.def)             Requested size: 171.14764pt x 108.32251pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 417.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [44
+
+]
+File: figure/ss44.png Graphic file (type png)
+ <use figure/ss44.png>
+Package pdftex.def Info: figure/ss44.png used on input line 417.
+(pdftex.def)             Requested size: 171.14764pt x 108.32251pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 417.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [45
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 451.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [46
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 477.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [47
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 477.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [48
+
+]
+<figure/ss24.png, id=436, 789.95125pt x 398.48875pt>
+File: figure/ss24.png Graphic file (type png)
+ <use figure/ss24.png>
+Package pdftex.def Info: figure/ss24.png used on input line 493.
+(pdftex.def)             Requested size: 239.60567pt x 120.867pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 493.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [49
+
+ <./figure/ss24.png>]
+<figure/ss43.png, id=445, 891.33pt x 428.60126pt>
+File: figure/ss43.png Graphic file (type png)
+ <use figure/ss43.png>
+Package pdftex.def Info: figure/ss43.png used on input line 510.
+(pdftex.def)             Requested size: 239.60567pt x 115.21376pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 510.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [50
+
+ <./figure/ss43.png>]
+File: figure/ss43.png Graphic file (type png)
+ <use figure/ss43.png>
+Package pdftex.def Info: figure/ss43.png used on input line 510.
+(pdftex.def)             Requested size: 239.60567pt x 115.21376pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 510.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [51
+
+] <figure/ss26.png, id=460, 767.86874pt x 237.88875pt>
+File: figure/ss26.png Graphic file (type png)
+
+<use figure/ss26.png>
+Package pdftex.def Info: figure/ss26.png used on input line 526.
+(pdftex.def)             Requested size: 239.60567pt x 74.23114pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 526.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [52
+
+ <./figure/ss26.png>]
+File: figure/ss26.png Graphic file (type png)
+
+<use figure/ss26.png>
+Package pdftex.def Info: figure/ss26.png used on input line 526.
+(pdftex.def)             Requested size: 239.60567pt x 74.23114pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 526.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [53
+
+]
+<figure/ss28.png, id=474, 235.88126pt x 137.51375pt>
+File: figure/ss28.png Graphic file (type png)
+ <use figure/ss28.png>
+Package pdftex.def Info: figure/ss28.png used on input line 550.
+(pdftex.def)             Requested size: 102.68962pt x 59.86626pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 550.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [54
+
+ <./figure/ss28.png>]
+File: figure/ss28.png Graphic file (type png)
+ <use figure/ss28.png>
+Package pdftex.def Info: figure/ss28.png used on input line 550.
+(pdftex.def)             Requested size: 102.68962pt x 59.86626pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 550.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [55
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 563.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [56
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 563.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [57
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 563.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [58
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 573.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [59
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 573.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [60
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 573.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [61
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 573.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [62
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 573.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [63
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 583.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [64
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 583.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [65
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 583.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [66
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 583.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [67
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 596.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [68
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 596.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [69
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 596.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [70
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 596.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [71
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 614.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [72
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 639.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [73
+
+] <figure/ss36.png, id=604, 478.78876pt x 241.90375pt>
+File: figure/ss36.png Graphic file (type png)
+
+<use figure/ss36.png>
+Package pdftex.def Info: figure/ss36.png used on input line 654.
+(pdftex.def)             Requested size: 171.14764pt x 86.46886pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 654.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [74
+
+ <./figure/ss36.png>]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 669.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [75
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 669.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [76
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 669.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [77
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 669.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [78
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 669.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [79
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 669.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [80
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 690.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [81
+
+] <figure/ss29.png, id=658, 949.5475pt x 356.33125pt>
+File: figure/ss29.png Graphic file (type png)
+
+<use figure/ss29.png>
+Package pdftex.def Info: figure/ss29.png used on input line 702.
+(pdftex.def)             Requested size: 239.60567pt x 89.91447pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 702.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [82
+
+ <./figure/ss29.png>]
+<figure/ss30.png, id=666, 457.71pt x 404.51125pt>
+File: figure/ss30.png Graphic file (type png)
+ <use figure/ss30.png>
+Package pdftex.def Info: figure/ss30.png used on input line 714.
+(pdftex.def)             Requested size: 136.91603pt x 121.00249pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 714.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [83
+
+ <./figure/ss30.png>]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 743.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [84
+
+]
+<figure/ss41.png, id=680, 952.55875pt x 294.09875pt>
+File: figure/ss41.png Graphic file (type png)
+ <use figure/ss41.png>
+Package pdftex.def Info: figure/ss41.png used on input line 759.
+(pdftex.def)             Requested size: 239.60567pt x 73.97774pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 759.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [85
+
+ <./figure/ss41.png>]
+<figure/ss46.png, id=690, 1152.305pt x 378.41376pt>
+File: figure/ss46.png Graphic file (type png)
+ <use figure/ss46.png>
+Package pdftex.def Info: figure/ss46.png used on input line 773.
+(pdftex.def)             Requested size: 239.60567pt x 78.68394pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 773.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [86
+
+ <./figure/ss46.png>]
+Overfull \vbox (0.44841pt too high) detected at line 808
+ []
+
+File: uni-bonn.png Graphic file (type png)
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 808.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [87
+
+] <figure/ss45.png, id=704, 645.41125pt x 475.7775pt>
+File: figure/ss45.png Graphic file (type png)
+
+<use figure/ss45.png>
+Package pdftex.def Info: figure/ss45.png used on input line 824.
+(pdftex.def)             Requested size: 171.14764pt x 126.16028pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 824.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [88
+
+ <./figure/ss45.png>]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 853.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [89
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 853.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [90
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 853.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [91
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 853.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [92
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 853.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [93
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 853.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [94
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 853.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [95
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 853.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [96
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 885.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [97
+
+]
+<figure/ss32.png, id=770, 906.38625pt x 507.8975pt>
+File: figure/ss32.png Graphic file (type png)
+ <use figure/ss32.png>
+Package pdftex.def Info: figure/ss32.png used on input line 900.
+(pdftex.def)             Requested size: 205.37926pt x 115.08574pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 900.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [98
+
+ <./figure/ss32.png>]
+<figure/ss33.png, id=779, 1325.4318pt x 340.1508pt>
+File: figure/ss33.png Graphic file (type png)
+ <use figure/ss33.png>
+Package pdftex.def Info: figure/ss33.png used on input line 916.
+(pdftex.def)             Requested size: 239.60567pt x 61.4892pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 916.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [99
+
+ <./figure/ss33.png>]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 947.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [100
+
+]
+<figure/ss48.png, id=793, 1048.91875pt x 392.46625pt>
+File: figure/ss48.png Graphic file (type png)
+ <use figure/ss48.png>
+Package pdftex.def Info: figure/ss48.png used on input line 960.
+(pdftex.def)             Requested size: 273.83728pt x 102.45801pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 960.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [101
+
+ <./figure/ss48.png>]
+<figure/ss38.png, id=802, 643.40375pt x 342.27875pt>
+File: figure/ss38.png Graphic file (type png)
+ <use figure/ss38.png>
+Package pdftex.def Info: figure/ss38.png used on input line 976.
+(pdftex.def)             Requested size: 171.14764pt x 91.04813pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 976.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [102
+
+ <./figure/ss38.png>]
+Overfull \vbox (8.13417pt too high) detected at line 1009
+ []
+
+File: uni-bonn.png Graphic file (type png)
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1009.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [103
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1045.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [104
+
+]
+<figure/ss39.png, id=824, 939.51pt x 308.15125pt>
+File: figure/ss39.png Graphic file (type png)
+ <use figure/ss39.png>
+Package pdftex.def Info: figure/ss39.png used on input line 1057.
+(pdftex.def)             Requested size: 308.06367pt x 101.04134pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1057.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [105
+
+ <./figure/ss39.png>]
+<figure/ss49.png, id=833, 932.48375pt x 334.24875pt>
+File: figure/ss49.png Graphic file (type png)
+ <use figure/ss49.png>
+Package pdftex.def Info: figure/ss49.png used on input line 1072.
+(pdftex.def)             Requested size: 308.06367pt x 110.42482pt.
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1072.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [106
+
+ <./figure/ss49.png>]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1083.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [107
+
+]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1083.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [108
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1083.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [109
+
+]
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1083.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [110
+
+]
+Overfull \hbox (1.96643pt too wide) in paragraph at lines 1109--1109
+ [] 
+ []
+
+File: uni-bonn.png Graphic file (type png)
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1109.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [111
+
+]
+Overfull \hbox (1.96643pt too wide) in paragraph at lines 1109--1109
+ [] 
+ []
+
+File: uni-bonn.png Graphic file (type png)
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1109.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [112
+
+]
+Overfull \hbox (1.96643pt too wide) in paragraph at lines 1109--1109
+ [] 
+ []
+
+File: uni-bonn.png Graphic file (type png)
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1109.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [113
+
+]
+Overfull \hbox (1.96643pt too wide) in paragraph at lines 1109--1109
+ [] 
+ []
+
+File: uni-bonn.png Graphic file (type png)
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1109.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [114
+
+]
+Overfull \hbox (1.96643pt too wide) in paragraph at lines 1109--1109
+ [] 
+ []
+
+File: uni-bonn.png Graphic file (type png)
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1109.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [115
+
+] <figure/ss50.png, id=899, 889.3225pt x 269.005pt>
+File: figure/ss50.png Graphic file (type png)
+
+<use figure/ss50.png>
+Package pdftex.def Info: figure/ss50.png used on input line 1123.
+(pdftex.def)             Requested size: 273.83728pt x 82.82834pt.
+File: uni-bonn.png Graphic file (type png)
+ <use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1123.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [116
+
+ <./figure/ss50.png>]
+File: uni-bonn.png Graphic file (type png)
+
+<use uni-bonn.png>
+Package pdftex.def Info: uni-bonn.png used on input line 1135.
+(pdftex.def)             Requested size: 58.51926pt x 34.14322pt.
+ [117
+
+]
+\tf@nav=\write8
+\openout8 = `seminar_beamer.nav'.
+
+\tf@toc=\write9
+\openout9 = `seminar_beamer.toc'.
+
+\tf@snm=\write10
+\openout10 = `seminar_beamer.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1137.
+ (./seminar_beamer.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1137.
+
+Package rerunfilecheck Info: File `seminar_beamer.out' has not changed.
+(rerunfilecheck)             Checksum: 4E143F356FB3C53E1EC6BF2207E45184;499.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+Package logreq Info: Writing requests to 'seminar_beamer.run.xml'.
+\openout1 = `seminar_beamer.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1137.
+ ) 
+Here is how much of TeX's memory you used:
+ 29075 strings out of 493014
+ 551909 string characters out of 6133351
+ 969685 words of memory out of 5000000
+ 31734 multiletter control sequences out of 15000+600000
+ 30091 words of font info for 96 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 56i,16n,60p,940b,961s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on seminar_beamer.pdf (117 pages, 8959015 bytes).
+PDF statistics:
+ 1029 PDF objects out of 1200 (max. 8388607)
+ 797 compressed objects within 8 object streams
+ 256 named destinations out of 1000 (max. 500000)
+ 359 words of extra memory for PDF output out of 10000 (max. 10000000)
+

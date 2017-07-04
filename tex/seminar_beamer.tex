@@ -1,3 +1,4 @@
+% author cany
 \documentclass{beamer}
 
 \usepackage{graphicx}
@@ -10,7 +11,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{refcount}
 \usepackage{tikz}
-\usepackage{ amssymb }
+\usepackage{amssymb}
 \usepackage{color, colortbl}
 \usepackage{booktabs,array}  
 \usepackage{caption}
@@ -27,11 +28,10 @@
 \newcommand\pro{\item[$+$]}
 \newcommand\con{\item[$-$]}
 
-\title[Seminar Visual Computing] % (optional, use only with long paper titles)
-{MA-INF 2221 - Seminar Visual Computing}
+\title[Seminar Visual Computing] {MA-INF 2221 - Seminar Visual Computing}
 \subtitle {DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs } 
 \author[Can Yuce]{Can Yuce\inst{1} \\
-	 \texttt{yuce@uni-bonn.de}}
+\texttt{yuce@uni-bonn.de}}
 \institute[University of Bonn] 
 {
 	\inst{1}
@@ -330,9 +330,9 @@ Deep Convolutional Neural Networks ({\color{blue}DCNN}) in classification:
 				\caption{SkipNet Architecture.}	
 			\end{figure}
 		\end{column}
-		\begin{column}{0.5\textwidth}  %%<--- here
+		\begin{column}{0.5\textwidth}  
 			\begin{center}
-				\begin{figure}
+			\begin{figure}
 				\centering
 				\includegraphics[width=5cm,height=2.5cm]{figure/ss27.png}
 				\captionsetup{justification=centering}
@@ -584,14 +584,14 @@ Deep Convolutional Neural Networks ({\color{blue}DCNN}) in classification:
 
 \begin{frame}{DeepLab: Experimental Set-Up }
 \begin{itemize}
-	\item Loss function is the sum of cross-entropy terms for each spatial position in the CNN output map. Cross-entropy error function is,
+	\item Loss function is the sum of cross-entropy terms for each pixel in the CNN output map. Cross-entropy error function is,
 	\begin{align*}
 	\mathcal{H}(\mathbf{o},\mathbf{t})=-\sum_{i=0}^{n}\log(o_i)\cdot t_i
 	\end{align*}
 	where, $o_i$ is the predicted probability distribution and $t_i$ is the true probability of class $i$. 
-	\item<2-> All positions and labels are equally weighted when loss function is computed.
-	\item<3-> Stochastic Gradient Descent method is utilized\footnote{Bottou, Léon. "Large-scale machine learning with stochastic gradient\\ descent." (2010)}. 
-	\item<4-> CNN output map is subsampled by 8 compared to the original\\ image.
+	\item<2-> CNN output map and GT labels are subsampled by 8 compared to the original image.
+	\item<3-> Labels are mildly unbalanced\footnote{Long, Jonathan, et al. "Fully convolutional networks for semantic segmentation."} (about 3/4 are background). Hence, all labels are equally weighted when loss function is computed.
+	\item<4-> Stochastic Gradient Descent method is utilized\footnote{Bottou, Léon. "Large-scale machine learning with stochastic gradient\\ descent." (2010)}. 
 \end{itemize}
 \end{frame}
 
@@ -618,12 +618,13 @@ Other methods:
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
+	
 		\begin{scope}
 		\clip (0,0) rectangle (2,2);
 		\fill[blue] (-2/3,-2/3) rectangle (4/3,4/3);
 		\end{scope}
-		\draw (0,0) rectangle (2,2) node {B};
-		\draw (-2/3,-2/3) rectangle (4/3,4/3) node {A};
+		\draw (0,0) rectangle (2,2) node[red] {B};
+		\draw (-2/3,-2/3) rectangle (4/3,4/3) node[red] {A};
 	\end{tikzpicture}
 	\caption{Intersection-over-union(IOU) } \label{fig:M1}
 \end{figure}
@@ -646,7 +647,7 @@ Other methods:
 \end{figure}
 \vspace{-0.5cm}
 \begin{itemize}
-	\item 20 foreground object classes and one background class.
+	\item 20 foreground object classes and one background class\footnote{Everingham, M., et al. "The pascal visual object classes challenge 2012\\ (voc2012) results (2012)."}.
 	\item {\color{blue}1,464} (\textit{train}), {\color{blue}10,582} (\textit{trainaug}),  {\color{blue}1,449} (\textit{val}), and  {\color{blue}1,456} (\textit{test}) pixel-level labeled images.
 	\item Example of segmentation ground truth is shown in {\color{blue}Figure \ref{fig:M5}}.
 \end{itemize}
@@ -662,7 +663,7 @@ Other methods:
 \begin{itemize}
 	\pro Enables 3.36 times faster training speed.
 \end{itemize}
-	\item<5-> DeepLab-CRF-LargeFOV model achieves $70.3\%$ mean IOU performance	on the official {\color{blue}test set}.
+	\item<5-> DeepLab-CRF-LargeFOV (VGG-16) model achieves $70.3\%$ mean IOU performance on the official {\color{blue}test set}.
 	\item<6-> DeepLab-CRF (ResNet-101) achieves $79.7\%$ mean IOU, advancing state-of-the-art.
 \end{itemize}
 \end{frame}
@@ -670,22 +671,21 @@ Other methods:
 \setbeamercovered{invisible}
 \begin{frame}{Pascal VOC 2012: Evaluation}
 \begin{table}
-	\begin{tabular}{ c  c c c c c | c }
+	\begin{tabular}{ c c c c | c }
 		\hline{}
 		\rule{0pt}{2.5ex}    
-		LFOV & ASPP-S  & ASPP-L & CRF & VAL & TEST & \textbf{mIOU} \\
+		LFOV & ASPP-S  & ASPP-L & CRF & \textbf{mIOU} \\
 		\hline
-		{\only<1>{\color{red}}\checkmark} && & & {\only<1>{\color{red}}\checkmark} && \only<1>{\color{red}$\vartriangleright$}  {\only<1>{\color{red}}$65.76$} \only<1>{\color{red}$\vartriangleleft$} \\
-		{\only<2>{\color{red}}\checkmark} &&& 	{\only<2>{\color{red}}\checkmark} & {\only<2>{\color{red}}\checkmark}  && \only<2>{\color{red}$\vartriangleright$}	{\only<2>{\color{red}}$69.84$} \only<2>{\color{red}$\vartriangleleft$} \\
-		&	{\only<3>{\color{red}}\checkmark} && &{\only<3>{\color{red}}\checkmark} && 	\only<3>{\color{red}$\vartriangleright$} {\only<3>{\color{red}}$66.98$} \only<3>{\color{red}$\vartriangleleft$}  \\		
-		&{\only<4>{\color{red}}\checkmark} & &{\only<4>{\color{red}}\checkmark}& {\only<4>{\color{red}}\checkmark}&&	{\only<4>{\color{red}$\vartriangleright$} \only<4>{\color{red}}$69.73$} \only<4>{\color{red}$\vartriangleleft$}  \\
-		&& 	{\only<5>{\color{red}}\checkmark} && {\only<5>{\color{red}}\checkmark}&	&{\only<5>{\color{red}$\vartriangleright$} \only<5>{\color{red}}$68.96$} \only<5>{\color{red}$\vartriangleleft$} \\
-		&& 	{\only<6>{\color{red}}\checkmark} & 	{\only<6>{\color{red}}\checkmark}&{\only<6>{\color{red}}\checkmark}&& \only<6>{\color{red}$\vartriangleright$}	{\only<6>{\color{red}}$71.57$} \only<6>{\color{red}$\vartriangleleft$}  \\
-		&& 	{\only<7>{\color{red}}\checkmark} &	{\only<7>{\color{red}}\checkmark}& &{\only<7>{\color{red}}\checkmark}&	\only<7>{\color{red}$\vartriangleright$} {\only<7>{\color{red}}$72.60$} \only<7>{\color{red}$\vartriangleleft$} \\				
+		\checkmark && & & $65.76$ \\
+		\checkmark &&& \checkmark & $69.84$\\
+		& \checkmark && & $66.98$  \\		
+		&\checkmark & & \checkmark & $69.73$ \\
+		&& \checkmark && $68.96$ \\
+		&& {\color{green}\checkmark} & {\color{green}\checkmark}& {\color{green}$\vartriangleright$} {\color{green}$71.57$} {\color{green}$\vartriangleleft$} \\				
 		\hline
 	\end{tabular}
    	\captionsetup{justification=centering}
-	\caption{PASCAL VOC 2012 {\color{blue}VAL/TEST} set performance (mean IOU) for VGG-16 based DeepLab model. {\color{blue}LargeFOV}: single branch, r = 12. {\color{blue}ASPP-S}: four branches, $r=\{2, 4, 8, 12\}$. {\color{blue}ASPP-L}: four branches, $r = \{6, 12, 18, 24\}$.}
+	\caption{PASCAL VOC 2012 {\color{blue}VAL} set performance (mean IOU) for {\color{blue}VGG-16} based DeepLab model. {\color{blue}LargeFOV}: single branch, r = 12. {\color{blue}ASPP-S}: four branches, $r=\{2, 4, 8, 12\}$. {\color{blue}ASPP-L}: four branches, $r = \{6, 12, 18, 24\}$.}
 \end{table}	
 \end{frame}
 
@@ -721,23 +721,24 @@ Other methods:
 \end{itemize}	
 \vspace{-0.4cm}
 \begin{table}
-	\begin{tabular}{ c  c c c c c c c | c }
-		\hline{}
-		\rule{0pt}{2.5ex}    
-		MSC & COCO  & Aug & LFOV & ASPP & CRF & VAL & TEST & \textbf{mIOU} \\
-		\hline
-		& & & & & & {\only<1>{\color{red}}\checkmark} & & {\only<1>{\color{red}$\vartriangleright$}} {\only<1>{\color{red}}$68.72$} {\only<1>{\color{red}$\vartriangleleft$}} \\
-		{\only<2>{\color{red}}\checkmark} & & & & & & {\only<2>{\color{red}}\checkmark} & & {\only<2>{\color{red}$\vartriangleright$}} {\only<2>{\color{red}}$71.27$} {\only<2>{\color{red}$\vartriangleleft$}} \\
-		{\only<3>{\color{red}}\checkmark} & {\only<3>{\color{red}}\checkmark} & & & & & {\only<3>{\color{red}}\checkmark} & & {\only<3>{\color{red}$\vartriangleright$}} {\only<3>{\color{red}}$73.28$} {\only<3>{\color{red}$\vartriangleleft$}} \\
-		{\only<4>{\color{red}}\checkmark} & {\only<4>{\color{red}}\checkmark} & {\only<4>{\color{red}}\checkmark} & {\only<4>{\color{red}}\checkmark} & & & {\only<4>{\color{red}}\checkmark} & & {\only<4>{\color{red}$\vartriangleright$}} {\only<4>{\color{red}}$74.87$} {\only<4>{\color{red}$\vartriangleleft$}} \\
-		{\only<5>{\color{red}}\checkmark} & {\only<5>{\color{red}}\checkmark} & {\only<5>{\color{red}}\checkmark} & {\only<5>{\color{red}}\checkmark} & & & {\only<5>{\color{red}}\checkmark} & & {\only<5>{\color{red}$\vartriangleright$}}   {\only<5>{\color{red}}$75.54$} {\only<5>{\color{red}$\vartriangleleft$}} \\
-		{\only<6>{\color{red}}\checkmark} & {\only<6>{\color{red}}\checkmark} & {\only<6>{\color{red}}\checkmark} & & {\only<6>{\color{red}}\checkmark} & & {\only<6>{\color{red}}\checkmark} & &  {\only<6>{\color{red}$\vartriangleright$}} {\only<6>{\color{red}}$76.35$} {\only<6>{\color{red}$\vartriangleleft$}} \\			
-		{\only<7>{\color{red}}\checkmark} & {\only<7>{\color{red}}\checkmark} & {\only<7>{\color{red}}\checkmark} & & {\only<7>{\color{red}}\checkmark} & {\only<7>{\color{red}}\checkmark} &  {\only<7>{\color{red}}\checkmark} & & {\only<7>{\color{red}$\vartriangleright$}} {\only<7>{\color{red}}$77.69$}  {\only<7>{\color{red}$\vartriangleleft$}} \\		
-		{\only<8>{\color{red}}\checkmark} & {\only<8>{\color{red}}\checkmark} & {\only<8>{\color{red}}\checkmark} & & {\only<8>{\color{red}}\checkmark} & {\only<8>{\color{red}}\checkmark} & & {\only<8>{\color{red}}\checkmark} & {\only<8>{\color{red}$\vartriangleright$}} {\only<8>{\color{red}}$79.70$}  {\only<8>{\color{red}$\vartriangleleft$}} \\																	
-		\hline
-	\end{tabular}
+	\scalebox{0.8}{		
+		\begin{tabular}{ c c c c c c | c }
+			\hline{}
+			\rule{0pt}{2.5ex}    
+			MSC & COCO  & Aug & LFOV & ASPP & CRF & \textbf{mIOU} \\
+			\hline
+			& & & & & & $68.72$ \\
+			\checkmark & & & & & & $71.27$ \\
+			\checkmark & \checkmark & & & & & $73.28$ \\
+			\checkmark & \checkmark & \checkmark & \checkmark & & & $74.87$ \\
+			\checkmark & \checkmark & \checkmark & \checkmark & & & $75.54$ \\
+			\checkmark & \checkmark & \checkmark & & \checkmark & & $76.35$ \\	
+			{\color{green}\checkmark} & {\color{green}\checkmark} & {\color{green}\checkmark} & & {\color{green}\checkmark} & {\color{green}\checkmark} & {\color{green}$\vartriangleright$} {\color{green}$77.69$} {\color{green}$\vartriangleleft$} \\
+		\hline		
+		\end{tabular}
+	}
 	\captionsetup{justification=centering}
-	\caption{Deeplab results with ResNet-101 on PASCAL VOC 2012  {\color{blue}VAL/TEST} set.\\ {\color{blue}MSC}: DCNN images at scale = $\{0.5, 0.75, 1\}$, {\color{blue}COCO}: MS-COCO dataset,\\ {\color{blue}Aug}: Randomly Scaled Input, {\color{blue}LFOV}: single branch,\\ {\color{blue}ASPP}: four branches, $r = \{6, 12, 18, 24\}$.}
+	\caption{Deeplab results on PASCAL VOC 2012 {\color{blue}VAL} set.\\ {\color{blue}MSC}: DCNN images at scale = $\{0.5, 0.75, 1\}$, {\color{blue}COCO}: MS-COCO dataset,\\ {\color{blue}Aug}: Randomly Scaled Input, {\color{blue}LFOV}: single branch,\\ {\color{blue}ASPP}: four branches, $r = \{6, 12, 18, 24\}$.}
 \end{table}	
 \end{frame}
 
@@ -751,9 +752,59 @@ Other methods:
 \end{figure}
 \vspace{-0.4cm}
 \begin{itemize}
+	\item Employing ResNet-101 without CRF has almost the same accuracy along object boundaries as employing VGG-16 with CRF procesing.
 	\item Residual connections in ResNet-101 has similar effect as hyper-column features.
 	%\item DeepLab results based on VGG-16 net or ResNet-101 before\\ and after CRF in {\color{blue}Figure \ref{fig:M2}}.
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Pascal VOC 2012: Qualitative Results}	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.70\textwidth]{figure/ss46.png}
+	\captionsetup{justification=centering}
+	\caption{Trimap examples(Left) and pixel IOU(right) as a function of trimap width.}
+\end{figure}
+\vspace{-0.4cm}
+\begin{itemize}
+	\item Using trimaps, one can evaluate segmentation accuracy around boundaries\footnote{Krähenbühl et al. "Efficient inference in fully connected CRFs with\\ gaussian edge potentials."}.
+	\item Post-processing the ResNet-101 result with a CRF further improves the accuracy result.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Pascal VOC 2012: Benchmark}	
+	\begin{table}
+		\scalebox{0.7}{
+			\begin{tabular}{ l | c }
+				\hline
+				\textbf{Method} & \textbf{mIOU} \\
+				\hline
+				MERL\_DEEP\_GCRF & 73.2 \\
+				CRF-RNN & 74.7 \\
+				POSTECH\_DeconvNet\_CRF\_VOC & 74.8 \\
+				BoxSup & 75.2 \\
+				Context + CRF-RNN & 75.3 \\
+				$\mathcal{Q}O_4^{mres}$ & 75.5 \\
+				DeepLab-CRF-Attention & 75.7 \\
+				CentraleSuperBoundaries++ & 76.0 \\
+				DeepLab-CRF-Attention-DT & 76.3 \\
+				H-ReNet + DenseCRF & 76.8 \\
+				LRR\_4x\_COCO & 76.8 \\
+				DPN & 77.5 \\
+				Adelaide\_Context & 77.8 \\
+				Oxford\textunderscore TVG\_HO\_CRF & 77.9 \\
+				Context CRF + Guidance CRF & 78.1 \\
+				{\color{red}Adelaide\_VeryDeep\_FCN\_VOC} & {\color{red}79.1} \\
+				\hline 
+				DeepLab-ASPP-L-CRF & 72.6 \\
+				DeepLab-CRF-LargeFOV-COCO & 72.7 \\
+				{\color{green}DeepLab-CRF (ResNet-101)} & {\color{green}$\vartriangleright$} {\color{green}$79.7$} {\color{green}$\vartriangleleft$} \\
+				\hline 
+			\end{tabular}
+		}
+		\captionsetup{justification=centering}
+		\caption{Benchmark on PASCAL VOC 2012 {\color{blue}test} set.}
+	\end{table}	
 \end{frame}
 
 \begin{frame}{PASCAL-Context: Dataset}	
@@ -766,8 +817,9 @@ Other methods:
 \end{figure}
 \vspace{-0.5cm}
 \begin{itemize}
-	\item PASCAL-Context\footnote{Mottaghi, Roozbeh, et al. "The role of context for object detection\\ and semantic segmentation in the wild."} dataset provides semantic labels({\color{blue}400+}) for the whole scene.
-	\item PASCAL-Context is a dataset of additional annotations for PASCAL VOC 2010, including {\color{blue}4998} training, {\color{blue}5105} validation and {\color{blue}9637} \\testing images.
+	\item PASCAL-Context\footnote{Mottaghi, Roozbeh, et al. "The role of context for object detection\\ and semantic segmentation in the wild."} dataset provides semantic labels for the whole scene.
+	\item Includes {\color{blue}4998} training, {\color{blue}5105} validation and {\color{blue}9637} test images.
+	\item Out of {\color{blue}400+} classes, results are reported on the the most frequent {\color{blue}59}.
 \end{itemize}
 \end{frame}
 
@@ -775,32 +827,68 @@ Other methods:
 \vspace{-0.2cm}
 \begin{table}
 	\setlength{\tabcolsep}{3pt}
-	\begin{tabular}{c c c c c c c | c }
-		\hline
-		\rule{0pt}{2.5ex}    
-		ResNet-101 & MSC & COCO  & Aug & LargeFOV & ASPP & CRF & \textbf{mIOU} \\
-		\hline
-		& & & & {\only<1>{\color{red}}\checkmark} & & & {\only<1>{\color{red}$\vartriangleright$}} {\only<1>{\color{red}}$37.6$} {\only<1>{\color{red}$\vartriangleleft$}} \\
-		& & & & {\only<2>{\color{red}}\checkmark} & & {\only<2>{\color{red}}\checkmark} & {\only<2>{\color{red}$\vartriangleright$}} {\only<2>{\color{red}}$39.6$} {\only<2>{\color{red}$\vartriangleleft$}} \\
-		{\only<3>{\color{red}}\checkmark} & & & & & & & {\only<3>{\color{red}$\vartriangleright$}} {\only<3>{\color{red}}$39.6$} {\only<3>{\color{red}$\vartriangleleft$}} \\				
-		{\only<4>{\color{red}}\checkmark} & {\only<4>{\color{red}}\checkmark} & & {\only<4>{\color{red}}\checkmark} & & & & {\only<4>{\color{red}$\vartriangleright$}} {\only<4>{\color{red}}$41.4$} {\only<4>{\color{red}$\vartriangleleft$}} \\
-		{\only<5>{\color{red}}\checkmark} & {\only<5>{\color{red}}\checkmark} & {\only<5>{\color{red}}\checkmark} & {\only<5>{\color{red}}\checkmark} & & & & {\only<5>{\color{red}$\vartriangleright$}} {\only<5>{\color{red}}$42.9$} {\only<5>{\color{red}$\vartriangleleft$}} \\		
-		{\only<6>{\color{red}}\checkmark} & {\only<6>{\color{red}}\checkmark} & {\only<6>{\color{red}}\checkmark} & {\only<6>{\color{red}}\checkmark} & {\only<6>{\color{red}}\checkmark} & & & {\only<6>{\color{red}$\vartriangleright$}} {\only<6>{\color{red}}$43.5$} {\only<6>{\color{red}$\vartriangleleft$}} \\		
-		{\only<7>{\color{red}}\checkmark} & {\only<7>{\color{red}}\checkmark} & {\only<7>{\color{red}}\checkmark} & {\only<7>{\color{red}}\checkmark} & & {\only<7>{\color{red}}\checkmark} & & {\only<7>{\color{red}$\vartriangleright$}} {\only<7>{\color{red}}$44.7$} {\only<7>{\color{red}$\vartriangleleft$}} \\
-		{\only<8>{\color{red}}\checkmark} & {\only<8>{\color{red}}\checkmark} & {\only<8>{\color{red}}\checkmark} & {\only<8>{\color{red}}\checkmark} & & {\only<8>{\color{red}}\checkmark} & {\only<8>{\color{red}}\checkmark} & {\only<8>{\color{red}$\vartriangleright$}} {\only<8>{\color{red}}$45.7$} {\only<8>{\color{red}$\vartriangleleft$}} \\		
-		\hline					
-	\end{tabular}
+	\scalebox{0.8}{	
+		\begin{tabular}{c c c c c c | c }
+			\hline
+			\rule{0pt}{2.5ex}    
+			MSC & COCO & Aug & LargeFOV & ASPP & CRF & \textbf{mIOU} \\
+			\hline
+			\textit{VGG-16} & & & & & & \\
+			& & & {\only<1>{\color{red}}\checkmark} & & & {\only<1>{\color{red}$\vartriangleright$}} {\only<1>{\color{red}}$37.6$} {\only<1>{\color{red}$\vartriangleleft$}} \\
+			& & & {\only<2>{\color{red}}\checkmark} & & {\only<2>{\color{red}}\checkmark} & {\only<2>{\color{red}$\vartriangleright$}} {\only<2>{\color{red}}$39.6$} {\only<2>{\color{red}$\vartriangleleft$}} \\
+			\hline
+			\textit{ResNet-101} & & & & & & \\
+			& & & & & & {\only<3>{\color{red}$\vartriangleright$}} {\only<3>{\color{red}}$39.6$} {\only<3>{\color{red}$\vartriangleleft$}} \\				
+			{\only<4>{\color{red}}\checkmark} & & {\only<4>{\color{red}}\checkmark} & & & & {\only<4>{\color{red}$\vartriangleright$}} {\only<4>{\color{red}}$41.4$} {\only<4>{\color{red}$\vartriangleleft$}} \\
+			{\only<5>{\color{red}}\checkmark} & {\only<5>{\color{red}}\checkmark} & {\only<5>{\color{red}}\checkmark} & & & & {\only<5>{\color{red}$\vartriangleright$}} {\only<5>{\color{red}}$42.9$} {\only<5>{\color{red}$\vartriangleleft$}} \\		
+			{\only<6>{\color{red}}\checkmark} & {\only<6>{\color{red}}\checkmark} & {\only<6>{\color{red}}\checkmark} & {\only<6>{\color{red}}\checkmark} & & & {\only<6>{\color{red}$\vartriangleright$}} {\only<6>{\color{red}}$43.5$} {\only<6>{\color{red}$\vartriangleleft$}} \\		
+			{\only<7>{\color{red}}\checkmark} & {\only<7>{\color{red}}\checkmark} & {\only<7>{\color{red}}\checkmark} & & {\only<7>{\color{red}}\checkmark} & & {\only<7>{\color{red}$\vartriangleright$}} {\only<7>{\color{red}}$44.7$} {\only<7>{\color{red}$\vartriangleleft$}} \\
+			{\only<8>{\color{green}}\checkmark} & {\only<8>{\color{green}}\checkmark} & {\only<8>{\color{green}}\checkmark} & & {\only<8>{\color{green}}\checkmark} & {\only<8>{\color{green}}\checkmark} & {\only<8>{\color{green}$\vartriangleright$}} {\only<8>{\color{green}}$45.7$} {\only<8>{\color{green}$\vartriangleleft$}} \\		
+			\hline					
+		\end{tabular}
+	}
 	\captionsetup{justification=centering}
-	\caption{Deeplab results on PASCAL Context test set. {\color{blue}MSC}: DCNN images at scale = $\{0.5, 0.75, 1\}$, {\color{blue}COCO}: MS-COCO dataset,  {\color{blue}Aug}: Randomly Scaled Input, {\color{blue}LargeFOV}: single branch, {\color{blue}ASPP}: four branches, $r = \{6, 12, 18, 24\}$.}		
+	\caption{Deeplab results on PASCAL Context {\color{blue}test} set. {\color{blue}MSC}: DCNN images at scale = $\{0.5, 0.75, 1\}$, {\color{blue}COCO}: MS-COCO dataset,  {\color{blue}Aug}: Randomly Scaled Input, {\color{blue}LargeFOV}: single branch, {\color{blue}ASPP}: four branches, $r = \{6, 12, 18, 24\}$.}		
 \end{table}
 \end{frame}
 
-\begin{frame}{PASCAL-Context: Qualitative/Quantitive Results}	
+\begin{frame}{Pascal-Context: Benchmark}	
+\vspace{-0.3cm}
 \begin{itemize}
-	\item CRF helps improve the model by removing false positives and improving the prediction along object boundaries({\color{blue}Figure \ref{fig:M3}}).
 	\item Final model yields {\color{blue}$45.7\%$}, outperforming the current state-of-art method.
 \end{itemize}
-\vspace{-0.4cm}
+\vspace{-0.5cm}
+\begin{table}
+	\scalebox{0.8}{
+		\begin{tabular}{ l | c }
+			\hline
+			\textbf{Method} & \textbf{mIOU} \\
+			\hline
+			O2P & 18.1 \\
+			CFM & 34.4 \\
+			FCN-8s & 37.8 \\
+			CRF-RNN & 39.3 \\
+			ParseNet & 40.4 \\
+			BoxSup & 40.5 \\
+			HO\_CRF & 41.3 \\
+			Context & 43.3 \\
+			VeryDeep & {\color{red}44.5} \\
+			\hline 
+			DeepLab-MSC-COCO-Aug-ASPP-&\\
+			CRF (VGG-16) & {\color{green}$\vartriangleright$} {\color{green}$45.7$} {\color{green}$\vartriangleleft$} \\
+			\hline 
+		\end{tabular}
+	}
+	\captionsetup{justification=centering}
+	\caption{Benchmark results on PASCAL Context test set. {\color{blue}MSC}: DCNN images at scale = $\{0.5, 0.75, 1\}$, {\color{blue}COCO}: MS-COCO dataset,  {\color{blue}Aug}: Randomly Scaled Input, {\color{blue}ASPP}: four branches, $r = \{6, 12, 18, 24\}$.}		
+\end{table}	
+\end{frame}
+
+\begin{frame}{PASCAL-Context: Qualitative Results}	
+\begin{itemize}
+	\item CRF helps improve the model by removing false positives and improving the prediction along object boundaries({\color{blue}Figure \ref{fig:M3}}).
+\end{itemize}
+
 \begin{figure}
 	\centering
 	\includegraphics[width=0.60\textwidth]{figure/ss32.png}
@@ -812,47 +900,59 @@ Other methods:
 \end{frame}
 
 \begin{frame}{PASCAL-Person-Part: Dataset}
-\begin{itemize}
-	\item {\color{blue}PASCAL-Part-Dataset}\footnote{Chen, Xianjie, et al. "Detect what you can: Detecting and representing\\ objects using holistic models and body parts. (2014)"} providing segmentation masks for each body part of the object.
-	\item The dataset contains detailed part annotations for every person.
-	\item Annotations are merged to be Head, Torso, Upper/Lower Arms and Upper/Lower Legs.
-\end{itemize}	
-
+\vspace{-0.4cm}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\textwidth]{figure/ss33.png}
 	\captionsetup{justification=centering}
-	\caption{PASCAL-Part-Dataset\footnote{http://www.stat.ucla.edu/~xianjie.chen/pascal\_part\_dataset/pascal\_part.html}.}
+	\caption{PASCAL-Part-Dataset\footnote{http://www.stat.ucla.edu/pascal\_part\_dataset/pascal\_part.html}.}
 \end{figure}
+\vspace{-0.6cm}
+\begin{itemize}
+	\item {\color{blue}PASCAL-Part-Dataset}\footnote{Chen, Xianjie, et al. "Detect what you can: Detecting and representing\\ objects using holistic models and body parts. (2014)"} provides segmentation masks for each body part of the object.
+	\item The dataset contains detailed part annotations for every person \textit{e.g.} eyes, nose etc.
+	\item Annotations are merged to be \emph{Head, Torso, Upper/Lower Arms and Upper/Lower Legs}.
+\end{itemize}	
 \end{frame}
 
 \begin{frame}{PASCAL-Person-Part: Evaluation}
-\begin{itemize}
-	\item Dense CRF is used to post process final output, advancing the state-of-the-art on the PASCAL-Person-Part dataset.
-\end{itemize}	
 \begin{table}
-	\begin{tabular}{ c  c c c c c | c }
-		\hline{}
-		\rule{0pt}{2.5ex}    
-		MSC & COCO  & Aug & LFOV & ASPP & CRF & \textbf{mIOU} \\
-		\hline
-		& & & & & & {\only<1>{\color{red}$\vartriangleright$}} {\only<1>{\color{red}}$58.90$} {\only<1>{\color{red}$\vartriangleleft$}} \\
-		{\only<2>{\color{red}}\checkmark}& & {\only<2>{\color{red}}\checkmark} & & & & {\only<2>{\color{red}$\vartriangleright$}} {\only<2>{\color{red}}$63.10$} {\only<2>{\color{red}$\vartriangleleft$}} \\
-		{\only<3>{\color{red}}\checkmark}& {\only<3>{\color{red}}\checkmark} & {\only<3>{\color{red}}\checkmark} & & & &  {\only<3>{\color{red}$\vartriangleright$}} {\only<3>{\color{red}}$64.40$} {\only<3>{\color{red}$\vartriangleleft$}} \\
-		{\only<4>{\color{red}}\checkmark}&{\only<4>{\color{red}}\checkmark} &{\only<4>{\color{red}}\checkmark} & & &{\only<4>{\color{red}}\checkmark} & {\only<4>{\color{red}$\vartriangleright$}} {\only<4>{\color{red}}$64.94$} {\only<4>{\color{red}$\vartriangleleft$}} \\		
-		{\only<5>{\color{red}}\checkmark} &{\only<5>{\color{red}}\checkmark} &{\only<5>{\color{red}}\checkmark} & {\only<5>{\color{red}}\checkmark} & & & {\only<5>{\color{red}$\vartriangleright$}}  {\only<5>{\color{red}}$62.18$} {\only<5>{\color{red}$\vartriangleleft$}} \\
-		{\only<6>{\color{red}}\checkmark} & {\only<6>{\color{red}}\checkmark} & {\only<6>{\color{red}}\checkmark} & & {\only<6>{\color{red}}\checkmark} & &  {\only<6>{\color{red}$\vartriangleright$}} {\only<6>{\color{red}}$62.76$} {\only<6>{\color{red}$\vartriangleleft$}} \\														
-		\hline
-	\end{tabular}
+	\scalebox{0.8}{	
+		\begin{tabular}{l c c c c c c | c }
+			\hline{}
+			\rule{0pt}{2.5ex}    
+			Method & MSC & COCO  & Aug & LFOV & ASPP & CRF & \textbf{mIOU} \\
+			\hline
+			\textit{ResNet-101} & & & & & & & \\
+			DeepLab & & & & & & & $58.90$ \\
+			DeepLab & \checkmark & & \checkmark & & & & $63.10$ \\
+			DeepLab & \checkmark & \checkmark & \checkmark & & & & $64.40$  \\
+			{\color{green}DeepLab} & {\color{green}\checkmark} & {\color{green}\checkmark} & {\color{green}\checkmark} & & &{\color{green}\checkmark} & {\color{green}$\vartriangleright$} {\color{green}$64.94$} {\color{green}$\vartriangleleft$} \\		
+			\hline
+			\textit{VGG-16} & & & & & & & \\
+			DeepLab & \checkmark & \checkmark & \checkmark & \checkmark & & & $62.18$ \\
+			DeepLab & \checkmark & \checkmark & \checkmark & & \checkmark & & $62.76$ \\												
+			\hline
+			\hline
+			Attention & & & & & & & 56.39 \\
+			HAZN & & & & & & & 57.54 \\
+			LG-LSTM & & & & & & & 57.97 \\
+			{\color{red}Graph LSTM} & & & & & & & {\color{red}60.16} \\
+			\hline			
+		\end{tabular}
+	}
    	\captionsetup{justification=centering}
-	\caption{DeepLab results with Resnet-101 on PASCAL-Person-Part validation set.\\{\color{blue}MSC}: DCNN images at scale = $\{0.5, 0.75, 1\}$, {\color{blue}COCO}: MS-COCO dataset,  \\{\color{blue}Aug}: Randomly Scaled Input, {\color{blue}LargeFOV}: single branch,\\{\color{blue}ASPP}: four branches, $r = \{6, 12, 18, 24\}$.}
+	\caption{DeepLab results on PASCAL-Person-Part {\color{blue}VAL} set.\\{\color{blue}MSC}: DCNN images at scale = $\{0.5, 0.75, 1\}$, {\color{blue}COCO}: MS-COCO dataset,  \\{\color{blue}Aug}: Randomly Scaled Input, {\color{blue}LargeFOV}: single branch,\\{\color{blue}ASPP}: four branches, $r = \{6, 12, 18, 24\}$.}
 \end{table}	
 \end{frame}
 
 \begin{frame}{PASCAL-Person-Part: Qualitative Results}	
+\begin{itemize}
+	\item Dense CRF is used to post process final output, advancing the state-of-the-art on the PASCAL-Person-Part dataset.
+\end{itemize}	
 \begin{figure}
 	\centering
-	\includegraphics[width=0.80\textwidth]{figure/ss35.png}
+	\includegraphics[width=0.80\textwidth]{figure/ss48.png}
 	\captionsetup{justification=centering}
 	\caption{Qualitative results on PASCAL-Person-Part dataset.}
 	\label{fig:M4}
@@ -870,36 +970,81 @@ Other methods:
 \begin{itemize}
 	\item {\color{blue}5000} images collected in street scenes from {\color{blue}50} different cities\footnote{MLA	
 		Cordts, Marius, et al. "The cityscapes dataset for semantic urban\\ scene understanding. (2016)" \label{label3}}.
-	\item {\color{blue}19} semantic labels (belonging to {\color{blue}7 super categories}: ground, construction, object, nature, sky, human, and vehicle). 
 	\item {\color{blue}2975}, {\color{blue}500}, and {\color{blue}1525} training, validation, and test images\\ respectively.
+	\item Out of {\color{blue}30}, {\color{blue}19} most frequent semantic labels (belonging to {\color{blue}7 super categories}: ground, construction, object, nature, sky, human, and vehicle) are used for evaluation.
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Cityscapes: Evaluation}	
 \begin{itemize}
-\item The images of Cityscapes have resolution $2048\times1024$.
 \item Model trained with subsampled images or each image is split into overlapped regions({\color{blue}full}).
-\item DeepLab-CRF(ResNet-101) ranked as the second-best model with $70.4\%$ mIOU on the \textit{test} set.
 \end{itemize}
 \vspace{-0.2cm}
 \begin{table}
 	\setlength{\tabcolsep}{3pt}
-	\begin{tabular}{ c c c c c | c }
-		\hline
-		\rule{0pt}{2.5ex}    
-		Full & Aug & LargeFOV  & ASPP & CRF & \textbf{mIOU} \\
-		\hline
-		 {\only<1>{\color{red}}\checkmark} & & & & &{\only<1>{\color{red}$\vartriangleright$}} {\only<1>{\color{red}}$66.6$} {\only<1>{\color{red}$\vartriangleleft$}} \\
-		 {\only<2>{\color{red}}\checkmark}& &{\only<2>{\color{red}}\checkmark} & & & {\only<2>{\color{red}$\vartriangleright$}} {\only<2>{\color{red}}$69.2$} {\only<2>{\color{red}$\vartriangleleft$}} \\
-		 {\only<3>{\color{red}}\checkmark}& & & {\only<3>{\color{red}}\checkmark} & & {\only<3>{\color{red}$\vartriangleright$}} {\only<3>{\color{red}}$70.4$} {\only<3>{\color{red}$\vartriangleleft$}} \\
-		 {\only<4>{\color{red}}\checkmark}&{\only<4>{\color{red}}\checkmark} & &{\only<4>{\color{red}}\checkmark} & & {\only<4>{\color{red}$\vartriangleright$}} {\only<4>{\color{red}}$71.0$} {\only<4>{\color{red}$\vartriangleleft$}} \\
-		 {\only<5>{\color{red}}\checkmark}&{\only<5>{\color{red}}\checkmark} & &{\only<5>{\color{red}}\checkmark} &{\only<5>{\color{red}}\checkmark} & {\only<5>{\color{red}$\vartriangleright$}} {\only<5>{\color{red}}$71.4$} {\only<5>{\color{red}$\vartriangleleft$}} \\	
-		\hline					
-	\end{tabular}
-   \captionsetup{justification=centering}
-	\caption{DeepLab results with Resnet-101 on Cityscapes validation set.\\{\color{blue}Full}: Model trained with full resolution images. {\color{blue}Aug}: Randomly Scaled\\ Input, {\color{blue}LargeFOV}: single branch, {\color{blue}ASPP}: four branches,\\ $r = \{6, 12, 18, 24\}$.}
+	\scalebox{0.8}{	
+		\begin{tabular}{ c c c c c | c }
+			\hline
+			\rule{0pt}{2.5ex}    
+			Full & Aug & LargeFOV  & ASPP & CRF & \textbf{mIOU} \\
+			\hline
+			\textit{VGG-16} & & & & & \\
+		 	& & \checkmark & & & $62.97$ \\
+		 	& & \checkmark & & \checkmark & $64.18$	 \\
+		 	\checkmark & & \checkmark & & & $64.89$ \\	 	
+		 	\checkmark & & \checkmark & & \checkmark & $65.94$ \\	 	
+		 	\hline 
+			\textit{Resnet-101} & & & & & \\	 	
+			\checkmark & & & & & $66.6$ \\
+			\checkmark & & \checkmark & & & $69.2$ \\
+			\checkmark & & & \checkmark & & $70.4$ \\
+			\checkmark & \checkmark & & \checkmark & & $71.0$ \\
+			{\color{green}\checkmark} & {\color{green}\checkmark} & & {\color{green}\checkmark} & {\color{green}\checkmark} &  {\color{green}$71.4$} \\	
+			\hline					
+		\end{tabular}
+	}
+   	\captionsetup{justification=centering}
+	\caption{DeepLab results on Cityscapes validation set.\\{\color{blue}Full}: Model trained with full resolution images($2048\times1024$). {\color{blue}Aug}:\\ Randomly Scaled Input, {\color{blue}LargeFOV}: single branch, {\color{blue}ASPP}:\\ four branches, $r = \{6, 12, 18, 24\}$.}
 \end{table}
 \end{frame}
+
+\begin{frame}{Cityscapes: Benchmark}	
+\vspace{-0.4cm}
+\begin{table}
+	\captionsetup{justification=centering}
+	\caption{Benchmark results on PASCAL Context test set. {\color{blue}MSC}: DCNN images at scale = $\{0.5, 0.75, 1\}$, {\color{blue}COCO}: MS-COCO dataset, {\color{blue}Aug}: Randomly Scaled Input, {\color{blue}ASPP}: four branches, $r = \{6, 12, 18, 24\}$.}	
+	\scalebox{0.8}{
+		\begin{tabular}{ l | c }
+			\hline
+			\textbf{Method} & \textbf{mIOU} \\
+			\hline
+			\textit{pre-release version of dataset} & \\
+			Adelaide\_Context & 66.4 \\
+			FCN-8s & 65.3 \\
+			\hline
+			DeepLab-CRF-LargeFOV-StrongWeak & 64.8 \\
+			DeepLab-CRF-LargeFOV & 63.1 \\
+			\hline
+			CRF-RNN & 62.5 \\
+			DPN & 59.1 \\
+			Segnet basic & 57.0 \\
+			Segnet extended & 56.1 \\
+			\hline
+			\hline
+			\textit{official version} & \\
+			Adelaide\_Context & 71.6 \\
+			Dilation10 & 67.1 \\
+			DPN & 66.8 \\
+			Pixel-level Encoding & 64.3 \\
+			\hline
+			{\color{green}DeepLab-CRF (ResNet-101)} & {\color{green}70.4} \\
+			\hline
+		\end{tabular}
+	}	
+\end{table}	
+\end{frame}
+
+
 
 \begin{frame}{Cityscapes: Qualitative Results}	
 \begin{figure}
@@ -911,6 +1056,21 @@ Other methods:
 \end{figure}
 \end{frame}
 
+\begin{frame}{Failure Modes}	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.90\textwidth]{figure/ss49.png}
+		\captionsetup{justification=centering}
+		\caption{Failure modes.}
+		\label{fig:M10}
+		\vspace{-0.4cm}
+		\begin{itemize}
+		\item Deeplab fails to capture the delicate boundaries of objects, such as bicycle and chair as shown in Fig. \ref{fig:M10}.
+		\item CRF post processing fails since the \emph{unary term} is not confident enough.
+		\end{itemize}
+	\end{figure}
+\end{frame}
+
 \setbeamercovered{transparent}
 \section{Future Direction}
 \begin{frame}{Future Direction}
@@ -918,6 +1078,7 @@ Other methods:
 \item<1-> {\color{blue}Weaker supervision\footnote{Papandreou, George, et al. "Weakly-and semi-supervised learning of\\ a DCNN for semantic image segmentation. (2015)" }} has been conducted in a number of papers, not requiring that pixel-level semantic annotations are available for the whole training set.
 \item<2-> {\color{blue}End-to-end CRF+DCNN} learning methods could be investigated.
 \item<3-> DeepLab can be applied on other {\color{blue}end-to-end regression tasks}, i.e depth/optical flow prediction, super-resolution estimation, denoising, demosaicing, bottom-up saliency, keypoint detection etc.
+\item<4-> To capture delicate boundaries, {\color{blue}fine-grained features} can be incorporated.
 \end{itemize}
 \end{frame}
 
@@ -943,12 +1104,22 @@ Other methods:
 		\hspace{0.2cm}$\mathcal{Q}_i(x_i)  \leftarrow \exp\{-\theta_i(x_i)- \hat{\mathcal{Q}}_i(x_i) \} $  & $\vartriangleright$ \textbf{Local Update } \onslide<5->\\
 		\hspace{0.2cm}Normalize $\mathcal{Q}_i(x_i) $ & \\
 		\textbf{end while} 
-		%John T & 13:04 & 24:15 & 18:34 & 55:53 \onslide<2-> \\ 
-		%Norman P & 8:00 & 22:45 & 23:02 & 53:47 \onslide<3->\\
-		%Alex K & 14:00 & 28:00 & n/a & n/a \onslide<4->\\
-		%Sarah H & 9:22 & 21:10 & 24:03 & 54:35 
 	\end{tabular}
 \end{table}
+\end{frame}
+
+\begin{frame}{Appendix: Mean Field Approximation}
+\begin{itemize}
+	\item Qualitative results:
+\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.80\textwidth]{figure/ss50.png}
+	\captionsetup{justification=centering}
+	\caption{Distributions $\mathcal{Q}(X_i=\text{\enquote*{bird}) (top)} \text{ and } \mathcal{Q}(X_i=\text{\enquote*{sky})}$ (bottom)}.
+	\label{fig:M11}
+\end{figure}
+
 \end{frame}
 
 \begin{frame}{Appendix: Mean Field Approximation}
